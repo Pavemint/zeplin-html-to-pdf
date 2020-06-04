@@ -7,8 +7,9 @@ This is an AWS Lambda function that converts HTML pages to PDF documents using w
 ## Input
 Input event to this function has the following structure: 
 ```
-{
-    "html": "<!DOCTYPE html><html><head><title>HTML doc</title></head><body>Content<body></html>"
+{ "body": "{
+    \"html\": \"<!DOCTYPE html><html><head><title>HTML doc</title></head><body>Content<body></html>\"
+    }"
 }
 ```
 
